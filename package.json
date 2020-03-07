@@ -1,14 +1,18 @@
 {
-  "name": "js-starter-code",
+  "name": "javascript-syntax-operators",
   "version": "1.0.0",
-  "description": "JS Starter Code",
+  "description": "JavaScript Syntax and Operators",
   "main": "script.js",
   "scripts": {
-    "start": "lite-server"
+    "start": "lite-server",
+    "test": "mocha './test/**/*.test.js'"
   },
-  "author": "Pluralsight",
-  "license": "ISC",
+  "author": "Catalin Tudose",
+  "license": "free",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "mocha": "^7.0.1"
   }
 }
